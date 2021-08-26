@@ -1,0 +1,181 @@
+<h1 id="title">Encuesta Vacunación Covid-19
+  </h1>
+
+<p id="description" >Breve encuesta sobre su salud y preferencia durante la pandemia actual.
+  </p>
+
+<form id="survey-form">
+<div id="formulario">  
+  
+<div class="formclass"><label id="name-label" for="name">Nombre:</label></div>
+ 
+  <div class="inputclassreg">
+  <input
+        type="text"
+        name="name"
+        id="name"
+        class=""
+        placeholder="Ingrese Su Nombre"
+        required
+      /></div>  
+  <div id="formulario">
+    <div class="formclass">
+  <label id="email-label" for="email">E-mail:</label></div>
+    
+  <div class="inputclassreg"><input 
+         type="email"
+         name="email"
+         id="email"
+         class=""
+         placeholder="Ingrese su E-mail"
+         required /> </div>    
+    
+  <div id="formulario">
+    <div class="formclass"><label id="number-label">Numero de Telefono:
+    </label></div>
+    <div class="inputclassreg"><input 
+           type="number"
+           name="number"
+           id="number"
+           class=""
+           placeholder="Ingrese su numero telefonico"
+           min="99999999"
+           max="99999999999999"/>
+           </div>
+  
+  <div id="formulario">
+    <div class="selectclass">
+    <p>Cual Vacuna Prefiere</p></div>
+     
+    <div class="inputselect"> 
+      <select id="dropdown" name="vacunas" class="" required>      
+        <option disabled selected value>Selecciona que vacuna prefiere:</option>
+        <option value="soberana">Soberana 1 (Cuba)</option>
+        <option value="gamaleya">Sputnik V (Rusia)</option>
+        <option value="pfizer">Pfizer (Usa)</option>
+        <option value="Aztrazeneca">Covishield (Oxford)</option>
+        <option value="sinovac">Sinovac (China)</option>
+      </select>    
+  </div>
+  
+  <div id="formulario">
+    <div class="radioclass"><label> Que Sector de edad pertenece:</label></div>
+    
+    <div class="inputradio">
+      <div>
+    <label>
+        <input
+          name="rango-edad"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+         
+        />0 a 17 Años</label
+      ></div>
+    
+    <div>
+    <label>
+        <input
+          name="rango-edad"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          
+        />18 a 59 Años</label></div>
+    
+    <div>
+    <label>
+        <input
+          name="rango-edad"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          
+               />Menor de 70 Años</label></div>
+    
+    <div><label>
+        <input
+          name="rango-edad"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          
+               />Menor de 80 Años</label></div>
+    
+    
+    <div><label>
+        <input
+          name="rango-edad"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          
+               />Mas de 80 Años</label></div> </div>   
+    
+  </div>
+  <div id="formulario">
+    <div class="checkclass">
+<label>Seleccione su factor de Riesgo:<label/></div>
+  <div class="inputcheck">
+  <div><label>
+        <input
+          name="factor-riesgo"
+          value="Sin Riesgo"
+          type="checkbox"
+          class="input-radio"
+          
+        />Sin Riesgo</label></div>
+    
+    <div><label>
+        <input
+          name="factor-riesgo"
+          value="Obesidad"
+          type="checkbox"
+          class="input-radio"
+          
+        />Obesidad</label></div>
+    
+    <div><label>
+        <input
+          name="factor-riesgo"
+          value="Hipertension"
+          type="checkbox"
+          class="input-radio"
+          
+        />Hipertension</label></div>
+    
+    <div><label>
+        <input
+          name="factor-riesgo"
+          value="Problemas Respiratorios"
+          type="checkbox"
+          class="input-radio"
+          
+        />Problemas Respiratorios</label></div>
+    
+     <div><label>
+        <input
+          name="factor-riesgo"
+          value="Problemas Cardiacos"
+          type="checkbox"
+          class="input-radio"
+          
+        />Problemas Cardiacos</label> </div>
+  
+</div></div>
+  
+  <div id="formulario">
+    <div class="formcom"><label>Comentarios y Sugerencias:</label></div>
+    <div clas="inputtarea"><label><textarea id="sugerencias"
+        class="inputtarea"
+        name="comentarios"
+        placeholder="Ingrese sus comentarios aqui."
+      ></textarea></label></div>
+    
+  </div>
+  <div id="formulario">
+<div class="inputbutton"><button id="submit" type="submit">Enviar</button> </div>        
+    </div>
+  </form>
+
+

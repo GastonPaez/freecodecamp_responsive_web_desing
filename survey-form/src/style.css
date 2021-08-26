@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+body {
+  text-align: center;
+  background-image:  url(https://www.ocu.org/-/media/ocu/images/home/salud/medicamentos/vacuna_preguntas_1600x900.jpg?rev=718e538c-3102-4f55-bcff-ce521b2c031a&hash=76CBCAE1787A20974F279D82B8907745);
+  background-size: cover;  
+  background-position: center;
+  font-family: 'Titillium Web'
+}
+
+#survey-form {  
+  width: 600px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #e7ba79, #ee947b);
+  font-family: 'Titillium Web'
+  
+}
+/** row-table**/
+#formulario {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  
+}
+
+.formclass {
+  display: inline-block;
+  text-align: right;
+  width: 40%
+  
+}
+.inputclassreg {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+}
+
+.selectclass { 
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  
+  
+}
+
+.inputselect {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  
+  
+}
+
+.radioclass {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  vertical-align: top;
+}
+
+.inputradio {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  
+  
+}
+
+.checkclass {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  vertical-align: top;
+  
+  
+}
+  
+.inputcheck {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  
+}
+
+.formcom {
+ padding: 10px;
+  
+}  
+.inputtarea {
+  height: 150px;
+  width: 80%;
+}
+
+#submit {
+  align-item: center;
+  width: 200px;
+  height: 40px;
+  
+}
+
+#title {
+  font-size: 45px;  
+}
+
+#description {
+        
+  font-style: italic;   
+  font-size: 18px;
+  
+    
+}

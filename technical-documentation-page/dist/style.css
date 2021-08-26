@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+
+#navbar
+{ 
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 25px;
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 360px;
+  height: 100%;
+  padding: 15px 0px;  
+  border-color: Blue;
+}
+#navbar header {
+  text-align: center;
+  font-size: 30px;
+  
+}
+#navbar header img {
+  width: 30px;
+  height: auto;
+  padding-right: 25px;
+  padding-left: 25px;
+  
+ 
+}
+#navbar li {
+  color: blue;
+  border-top: 2px solid;
+  list-style: none;
+  position: relative;
+  width: 100%; 
+}
+#navbar li :hover {
+  background: #0248A1;
+  color: red;
+  text-decoration: none;
+  font-size: 30px;
+}
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  }
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  position: absolute;
+  margin-left: 350px;
+  padding: 30px;
+  background-image: url(https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2019/06/30215120/Vuelta-a-Boedo-San-Lorenzo-7.jpg);
+  background-size: cover;  
+  background-position: center;
+  background-attachment: fixed;
+}
+#main-doc section {
+ background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,0.7987570028011204) 0%, rgba(115,115,117,0.6643032212885154) 100%);  
+  color: white;
+  padding-bottom: 1px;
+  text-indent: 10px;   
+  }
+
+#main-doc header {
+  text-align: left;
+  font-size: 35px;
+  background: rgb(12,65,194);
+background: linear-gradient(90deg, rgba(12,65,194,1) 0%, rgba(255,40,40,1) 25%, rgba(12,65,194,1) 50%, rgba(255,40,40,1) 75%, rgba(12,65,194,1) 100%);
+  color: white;
+  text-indent: 30px;  
+  padding: 4px;
+  margin-top: 10px;    
+}
+#main-doc section{
+  font-size: 24px;
+}
+
+
+@media (max-width: 700px){
+  #navbar {
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  width: 180px;
+  height: 100%;
+  padding: 15px 0px;
+  }
+  #navbar a {
+  display: block;
+  padding: 5px 15px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;  
+}
+#main-doc {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  position: absolute;
+  margin-left: 285px;
+  padding: 5px; 
+  }
+
+ #main-doc section p{
+    font-size: 18px;
+  }
+  #main-doc section header {
+    font-size: 22px;
+  }
+
+@media (max-width: 600px){
+  #navbar {
+  min-width: 80px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;    
+  font-size: 16px;
+  width: 35%;
+  height: 100%;
+  padding: 15px 0px;
+  }
+  #navbar a {
+  display: block;
+  padding: 5px 15px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;  
+}
+  #main-doc {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  position: absolute;
+  margin-left: 35%;
+  padding: 10px; 
+  }
+  #main-doc section p{
+    font-size: 16px;
+  }
+  #main-doc section header {
+    font-size: 20px;
+  }
+}
