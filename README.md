@@ -1,1 +1,2 @@
-## FreeCodeCamp Responsive Web Desing
+## FreeCodeCamp Responsive Web Desingn
+html code by manual typing
